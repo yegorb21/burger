@@ -1,0 +1,11 @@
+CREATE DATABASE burgerdb;
+
+USE burgerdb;
+
+CREATE TABLE burgers(
+  id INT AUTO_INCREMENT NOT NULL,
+  burgerName VARCHAR(100) NULL,
+  devoured TINYINT(0) NULL,
+  date TIMESTAMP NOT NULL,
+  PRIMARY KEY(id)
+);
